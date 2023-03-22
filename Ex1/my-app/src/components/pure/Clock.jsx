@@ -4,8 +4,8 @@ const Clock = () => {
   const defaultState = {
     fecha: new Date(),
     edad: 0,
-    nombre: 'Martín',
-    apellidos: 'San José',
+    nombre: 'Federico',
+    apellidos: 'Nicoletti',
   };
 
   const [user, setUser] = useState(defaultState);
