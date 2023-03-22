@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import ComponenteB from './components/container/ComponenteB';
-import Componentec from './components/pure/ComponenteC';
+import Clock from './components/pure/Clock';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       {/* <ComponenteB></ComponenteB> */}
-      <ComponenteC></ComponenteC>
+      <Clock></Clock>
       </header>
     </div>
   );
