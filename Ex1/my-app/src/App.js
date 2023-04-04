@@ -8,6 +8,8 @@ import Ejemplo1 from "./hooks/Ejemplo1";
 import Ejemplo2 from "./hooks/Ejemplo2";
 import MiComponenteConContexto from "./hooks/Ejemplo3";
 import Ejemplo4 from "./hooks/Ejemplo4";
+import Loginstyled from "./components/pure/Loginstyled";
+import { Father } from "./components/container/father";
 
 function App() {
   return (
@@ -28,7 +30,10 @@ function App() {
             Contenido del props.children
           </h3>
         </Ejemplo4>
+        <Loginstyled name="Federico"></Loginstyled>
         */}
+        {/**Gestion de eventos*/}
+        <Father></Father>
       </header>
     </div>
   );
